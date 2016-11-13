@@ -1,6 +1,6 @@
 {
   "name": "righteous-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Righteous code formatting styles",
   "main": "lint.js",
   "author": "Mike Arvela <mike@arvela.net>",
