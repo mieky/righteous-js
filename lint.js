@@ -1,9 +1,16 @@
 #!/usr/bin/env node
 
-const exec = require("child_process").exec;
+const fork = require("child_process").fork;
 
 const lintTargets = process.env.npm_package_config_lintTargets || "**/*.js";
 const params = lintTargets.split();
 
-console.log(`Linting with params: ${params}`);
-exec("./node_modules/eslint/bin/eslint.js", params);
+const eslintCommand = `${__dirname}/node_modules/eslint/bin/eslint.js`;
+const runCommand = `${eslintCommand} ${params}`;
+console.log(`Running: ${runCommand}`);
+
+const lintProcess = fork(eslintCommand, params);
+lintProcess.on("close", code => {
+    console.log("Done.");
+    process.exit(code);
+});
