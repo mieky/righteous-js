@@ -1,8 +1,8 @@
 {
   "name": "righteous-js",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Righteous code formatting styles",
-  "main": "index.js",
+  "main": "lint.js",
   "author": "Mike Arvela <mike@arvela.net>",
   "config": {
     "lintTargets": "**/*.js"
@@ -25,7 +25,6 @@
     "linting",
     "style"
   ],
-  "main": "lint.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mieky/righteous-js.git"
