@@ -22,7 +22,7 @@ At an early stage, **subject to change.**
 
 There's some very smart people who have done a great job coming up with mostly sane defaults. About some specific issues I beg to differ, though, so it makes sense to only fix enough bits to have my eyes stop bleeding.
 
-What does code that passes these rules look like?
+Code that passes these rules looks something like that of [jestas](https://github.com/mieky/jestas).
 
 ## Installation
 
