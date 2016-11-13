@@ -2,13 +2,27 @@
 
 [![npm version](https://badge.fury.io/js/righteous-js.svg)](http://badge.fury.io/js/righteous-js) [![Build Status](https://travis-ci.org/mieky/righteous-js.svg?branch=master)](https://travis-ci.org/mieky/righteous-js)
 
-**At an early stage, subject to change.**
-
-Righteous code formatting styles. Like your current styles, but more righteous.
+Righteous code formatting styles for your Javascript project. Like your current styles, but more righteous.
 
 Inspired by standard.js, but also more righteous.
 
-Currently based on eslint-config-airbnb-base, but might also be based on something more relevant later.
+#### What is it exactly?
+
+A modern, fresh, easy-to-install, strongly opinionated ruleset based on [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base).
+
+Highlights:
+- 4-space indents
+- semicolons
+- double quotes
+- no trailing commas
+
+At an early stage, **subject to change.**
+
+#### Why?
+
+There's some very smart people who have done a great job coming up with mostly sane defaults. About some specific issues I beg to differ, though, so it makes sense to only fix enough bits to have my eyes stop bleeding.
+
+What does code that passes these rules look like?
 
 ## Installation
 
@@ -28,7 +42,9 @@ In your package.json, add:
 }
 ```
 
-Where `lintTargets` is a space-separated list of files you want to have linted.
+Where `lintTargets` is a space-separated list of files you want to have linted (optional, defaults to `*.js`)
+
+After this, you can run `npm run lint` to check your project.
 
 ## Changelog
 
