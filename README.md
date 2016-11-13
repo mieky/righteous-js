@@ -1,5 +1,7 @@
 # righteous.js
 
+[![npm version](https://badge.fury.io/js/righteous-js.svg)](http://badge.fury.io/js/righteous-js) [![Build Status](https://travis-ci.org/mieky/righteous-js.svg?branch=master)](https://travis-ci.org/mieky/righteous-js)
+
 **At an early stage, subject to change.**
 
 Righteous code formatting styles. Like your current styles, but more righteous.
@@ -34,7 +36,7 @@ Where `lintTargets` is a space-separated list of files you want to have linted.
 
 ## Acknowledgements
 
-This project is a grateful recipient of the [Futurice Open Source sponsorship program](http://futurice.com/blog/sponsoring-free-time-open-source-activities).
+[![chilicorn](chilicorn.png)](http://futurice.com/blog/sponsoring-free-time-open-source-activities)
 
 ## License
 
