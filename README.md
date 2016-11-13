@@ -8,7 +8,7 @@ Inspired by standard.js, but also more righteous.
 
 Currently based on eslint-config-airbnb-base, but might also be based on something more relevant later.
 
-## Installing
+## Installation
 
 `npm install --save-dev righteous-js`
 
@@ -27,3 +27,15 @@ In your package.json, add:
 ```
 
 Where `lintTargets` is a space-separated list of files you want to have linted.
+
+## Changelog
+
+- **1.0.0** First release.
+
+## Acknowledgements
+
+This project is a grateful recipient of the [Futurice Open Source sponsorship program](http://futurice.com/blog/sponsoring-free-time-open-source-activities).
+
+## License
+
+[MIT](https://github.com/mieky/righteous-js/blob/master/LICENSE)

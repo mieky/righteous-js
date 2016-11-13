@@ -16,10 +16,21 @@
     "eslint-config-airbnb-base": "^10.0.1",
     "eslint-plugin-import": "^2.2.0"
   },
+  "homepage": "https://github.com/mieky/righteous-js",
+  "keywords": [
+    "code",
+    "eslint",
+    "convention",
+    "formatting",
+    "linting",
+    "style"
+  ],
+  "main": "lint.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mieky/righteous-js.git"
+  },
   "scripts": {
     "lint": "./lint.js"
-  },
-  "dependencies": {
-    "shelljs": "^0.7.5"
   }
 }
