@@ -2,10 +2,10 @@
 
 const fork = require("child_process").fork;
 
-const lintTargets = process.env.npm_package_config_lintTargets || "**/*.js";
+const lintTargets = process.env.npm_package_config_lintTargets || "*.js";
 const params = lintTargets.split();
 
-const eslintCommand = `${__dirname}/node_modules/eslint/bin/eslint.js`;
+const eslintCommand = `./node_modules/eslint/bin/eslint.js`;
 const runCommand = `${eslintCommand} ${params}`;
 console.log(`Running: ${runCommand}`);
 
