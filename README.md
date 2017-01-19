@@ -39,10 +39,9 @@ In your package.json, add:
 },
 "scripts": {
     "lint": "node_modules/righteous-js/lint.js"
-}
-```
+}```
 
-Where `lintTargets` is a space-separated list of files you want to have linted (optional, defaults to `*.js`)
+Where `lintTargets` is a space-separated list of files you want to have checked (optional, defaults to `*.js`)
 
 After this, you can run `npm run lint` to check your project.
 
