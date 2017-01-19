@@ -47,6 +47,7 @@ After this, you can run `npm run lint` to check your project.
 
 ## Changelog
 
+- **1.1.0** Update to newest versions of eslint and eslint-config-airbnb-base
 - **1.0.0** First release.
 
 ## Acknowledgements
