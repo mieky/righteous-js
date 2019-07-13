@@ -1,3 +1,5 @@
+**righteous.js is deprecated and should be replaced.**
+
 # righteous.js
 
 [![npm version](https://badge.fury.io/js/righteous-js.svg)](http://badge.fury.io/js/righteous-js) [![Build Status](https://travis-ci.org/mieky/righteous-js.svg?branch=master)](https://travis-ci.org/mieky/righteous-js)
